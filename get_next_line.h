@@ -6,7 +6,7 @@
 /*   By: amoracho <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/12/13 17:57:14 by amoracho          #+#    #+#             */
-/*   Updated: 2020/12/13 17:57:33 by amoracho         ###   ########.fr       */
+/*   Updated: 2020/12/14 04:23:17 by amoracho         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,8 +17,8 @@
 # include <stdio.h>
 # include <fcntl.h>
 
-char 	*load_in_cache(char *cache, char *buf, int bytes_read);
-int 	count_line(char *cache);
+char	*load_in_cache(char *cache, char *buf, int bytes_read);
+int		count_line(char *cache);
 int		get_empty(char **line);
 char	*extract_one_line(char **line, char *cache);
 int		get_next_line(int fd, char **line);
